@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="733c0b1f-59d6-4cfa-be56-aeddd6310826" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter_Five/HelloLights.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter_Five/Mesh3D.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter_Four/HelloMesh.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter_Four/Mesh3D.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter_Four/OpenGLStarter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PyGraphics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PyGraphics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_Three/PlotLineNaive.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_Three/PlotLineNaive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_Five/HelloLights.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_Five/HelloLights.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
