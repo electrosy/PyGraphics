@@ -1,5 +1,7 @@
 import pygame
+from pygame.draw import aaline
 from pygame.locals import *
+from pygame.gfxdraw import *
 
 pygame.init()
 screen_width = 1000
@@ -63,6 +65,7 @@ while not done:
             if timesClicked > 1:
                 plot_line2(point1, point2)
                 #pygame.draw.line(screen, white, point1, point2)
+                #pygame.draw.aaline(screen, white, point1, point2)
                 timesClicked = 0
     pygame.display.update()
 pygame.quit()
