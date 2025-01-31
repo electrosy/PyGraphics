@@ -4,10 +4,12 @@ from OpenGL.GL import *
 from OpenGL.GLU import *
 from Mesh3D import *
 from Cube import *
+from Object import *
+from Transform import *
 
 pygame.init()
-screen_width = 500
-screen_height = 500
+screen_width = 768
+screen_height = 768
 screen = pygame.display.set_mode((screen_width, screen_height), DOUBLEBUF|OPENGL)
 pygame.display.set_caption('OpenGL in Python')
 done = False
@@ -40,8 +42,24 @@ glEnable(GL_LIGHT0)
 glMaterialfv(GL_FRONT, GL_DIFFUSE, (0, 1, 0, 1))
 
 #mesh = Mesh3D()
-cube = Cube(GL_POLYGON, "brick-wall.jpg")
+#cube = Cube(GL_POLYGON, "../images/brick-wall.jpg")
+
+objects = []
+
+cube = Object("Cube")
+cube.add_component(Transform((0, 0, -1)))
+cube.add_component(Cube(GL_POLYGON, "../images/brick-wall.jpg"))
+
+cube2 = Object("Cube2")
+cube2.add_component(Transform((0, 1, 0)))
+cube2.add_component(Cube(GL_POLYGON, "../images/brick-wall.jpg"))
+
+objects.insert(0,cube)
+objects.insert(1,cube2)
+
 auto_rotate = False
+clock = pygame.time.Clock()
+fps = 30
 while not done:
 
   for event in pygame.event.get():
@@ -83,7 +101,11 @@ while not done:
     glRotatef(1.25, 1, 0, 1)
 
   #mesh.draw()
-  cube.draw()
+  for o in objects:
+      o.update()
+
   pygame.display.flip()
-  pygame.time.wait(25);
+  clock.tick(fps)
+  #pygame.time.wait(25);
+  print('tick = {}, fps = {}'.format(clock.tick(), clock.get_fps()))
 pygame.quit()

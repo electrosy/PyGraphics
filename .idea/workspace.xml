@@ -5,6 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="733c0b1f-59d6-4cfa-be56-aeddd6310826" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Chapter_Seven/AddingButton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_Seven/Button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_Seven/Cube.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_Seven/Mesh3D.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_Seven/MouseDrawing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_Seven/Object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_Seven/Transform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_Seven/Utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_Six/Cube.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_Six/HelloObject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_Six/Mesh3D.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_Six/Object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_Six/Transform.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter_Five/HelloLights.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_Five/HelloLights.py" afterDir="false" />
     </list>
@@ -33,28 +46,34 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.AddingButton.executor&quot;: &quot;Run&quot;,
     &quot;Python.HelloLights (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.HelloLights.executor&quot;: &quot;Run&quot;,
     &quot;Python.HelloMesh.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HelloObject.executor&quot;: &quot;Run&quot;,
     &quot;Python.Mesh3D.executor&quot;: &quot;Run&quot;,
     &quot;Python.Mesh3d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MouseDrawing.executor&quot;: &quot;Run&quot;,
     &quot;Python.NaiveCircle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Object.executor&quot;: &quot;Run&quot;,
     &quot;Python.OpenGLStarter.executor&quot;: &quot;Run&quot;,
     &quot;Python.PlotLineNaive.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/steve/Code/electrosy/PyGraphics/Chapter_Five&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/steve/Code/electrosy/PyGraphics/Chapter_Seven&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Chapter_Seven" />
+      <recent name="$PROJECT_DIR$/Chapter_Six" />
       <recent name="$PROJECT_DIR$/Chapter_Five" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.HelloLights">
-    <configuration name="HelloLights (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.HelloObject">
+    <configuration name="AddingButton" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyGraphics" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,11 +82,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter05test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_Seven" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter05test/HelloLights.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_Seven/AddingButton.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="HelloMesh" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloObject" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyGraphics" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,11 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_Four" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_Six" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_Four/HelloMesh.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_Six/HelloObject.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Mesh3D" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MouseDrawing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyGraphics" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,11 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_Four" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_Seven" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_Four/Mesh3D.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_Seven/MouseDrawing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PlotLineNaive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Object" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyGraphics" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,11 +170,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_Three" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_Six" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_Three/PlotLineNaive.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_Six/Object.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.HelloObject" />
+        <item itemvalue="Python.AddingButton" />
+        <item itemvalue="Python.MouseDrawing" />
+        <item itemvalue="Python.Object" />
         <item itemvalue="Python.HelloLights" />
-        <item itemvalue="Python.HelloLights (1)" />
-        <item itemvalue="Python.HelloMesh" />
-        <item itemvalue="Python.Mesh3D" />
-        <item itemvalue="Python.PlotLineNaive" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +233,11 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chapter_Four/HelloMesh.py</url>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter_Six/Object.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
